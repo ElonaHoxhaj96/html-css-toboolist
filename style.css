@@ -1,0 +1,18 @@
+/*header*/
+.intestazione{
+    width: auto;
+    height: 100px;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 0%;
+    margin-left: 10px;   
+}
+
+h1{
+    display: inline;
+    font-size: 60px;
+    vertical-align: top;
+}
