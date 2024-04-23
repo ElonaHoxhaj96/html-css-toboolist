@@ -21,6 +21,7 @@ h1{
     vertical-align: top;
 }
 
+
 /*Inizia il Main*/
 main{
     height: 100%;
@@ -55,6 +56,9 @@ main div{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+/*parole cerchiate */
+
 .cerchiate{
     background-color: rgb(40, 176, 230);
     border-radius: 15px;
@@ -62,6 +66,22 @@ main div{
     font-size: 15px;
     color: white;
 }
+
+.check::before{
+    content: "\2714";
+    color: green;
+    background-color: white;
+    border-radius: 50%;
+    border-color: green;
+    border-width: 1px;
+}
+.cross::before{
+    content: "\274C";
+
+}
+
+
+/*Inserimento colori */
 .cerchiate.viola{
     background-color: blueviolet;
 }
@@ -76,4 +96,3 @@ main div{
 .cerchiate.verde{
     background-color:greenyellow;
 }
-
