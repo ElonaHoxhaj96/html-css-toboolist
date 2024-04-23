@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 /*header*/
 .intestazione{
     width: auto;
@@ -16,3 +20,27 @@ h1{
     font-size: 60px;
     vertical-align: top;
 }
+
+/*Inizia il Main*/
+main{
+    height: 100%;
+    background-color: gray;
+
+}
+
+#bottoni{
+    background-color: white;
+    margin: 0px 200px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.contenuto{
+    background-color: white;
+    height: 800px;
+    margin: 2px 200px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left:  50px ;
+}
+
