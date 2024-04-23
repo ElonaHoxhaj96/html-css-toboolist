@@ -24,7 +24,7 @@ h1{
 /*Inizia il Main*/
 main{
     height: 100%;
-    background-color: gray;
+    background-color: lightgray;
     
 
 }
@@ -52,7 +52,28 @@ main h2{
 }
 main div{
     font-size: 17px;
-  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cerchiate{
+    background-color: rgb(40, 176, 230);
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+}
+.cerchiate.viola{
+    background-color: blueviolet;
+}
+.cerchiate.arancione{
+    background-color:orange;
+}
+
+.cerchiate.fuxia{
+    background-color:fuchsia;
+}
+
+.cerchiate.verde{
+    background-color:greenyellow;
 }
 
